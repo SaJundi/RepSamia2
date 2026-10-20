@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dra. Samia Insaurriaga Jundi | Ginecologia, Obstetrícia & Reprodução Assistida em Niterói</title>
+  <meta name="description" content="Atendimento acolhedor e humanizado em Icaraí, Niterói. Especialista em Reprodução Assistida, Anovulação, Infertilidade, Pré-natal de Alto Risco e Parto Humanizado. Dra. Samia Insaurriaga Jundi - CRM-RJ 520117352-9.">
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+  <!-- Fontes Google de Alto Padrão -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       FUNDO FIXO / MODO ROLAGEM PARALLAX (ÁRVORE DA VIDA DA REPRODUÇÃO)
+       A imagem brilha na entrada e fica em segundo plano suave durante a rolagem
+       ========================================================================= -->
+  <div class="fixed-tree-canvas" id="fixedTreeCanvas" aria-hidden="true">
+    <div class="tree-bg-layer" id="treeBgLayer" style="background-image: url('assets/images/hero-bg.jpg');"></div>
+    <div class="tree-overlay-layer" id="treeOverlayLayer"></div>
+  </div>
+
+  <!-- Barra Superior de Contato Rápido -->
+  <aside class="top-announcement">
+    <div class="container top-inner">
+      <div class="top-location">
+        <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        <span>Edifício TRADE ICARAÍ • Rua Ator Paulo Gustavo 26, sala 1114, Icaraí - Niterói</span>
+      </div>
+      <div class="top-contact-links">
+        <a href="https://www.instagram.com/samiajundi.go/" target="_blank" rel="noopener" class="top-link">
+          <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          <span>@samiajundi.go</span>
+        </a>
+        <span class="top-sep">|</span>
+        <a href="tel:+552130942459" class="top-link">
+          <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <span>(21) 3094-2459</span>
+        </a>
+        <span class="top-sep">|</span>
+        <a href="https://wa.me/5521995551925?text=Ol%C3%A1%2C%20Dra.%20Samia!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" class="top-link highlight">
+          <span>WhatsApp: (21) 99555-1925</span>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Cabeçalho Principal -->
+  <header class="main-header" id="mainHeader">
+    <div class="container header-inner">
+      <a href="#hero" class="brand-badge">
+        <div class="brand-logo-wrap">
+          <img src="assets/images/logo.png" alt="Logotipo Dra. Samia Insaurriaga Jundi" class="brand-seal-img">
+        </div>
+        <div class="brand-details">
+          <span class="doctor-name">Dra. Samia Insaurriaga Jundi</span>
+          <span class="doctor-specialty">Ginecologia • Obstetrícia • Reprodução Assistida</span>
+          <span class="doctor-crm">CRM-RJ 520117352-9</span>
+        </div>
+      </a>
+
+      <!-- Menu de Navegação -->
+      <nav class="nav-wrapper" id="navWrapper">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-item active">Início</a></li>
+          <li><a href="#sobre" class="nav-item">Sobre a Médica</a></li>
+          <li><a href="#reproducao" class="nav-item">Reprodução Assistida</a></li>
+          <li><a href="#especialidades" class="nav-item">Especialidades</a></li>
+          <li><a href="#depoimentos" class="nav-item">Avaliações</a></li>
+          <li><a href="#consultorio" class="nav-item">Consultório & Contato</a></li>
+        </ul>
+        <div class="mobile-cta-box">
+          <a href="https://wa.me/5521995551925?text=Ol%C3%A1%2C%20Dra.%20Samia!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" class="btn btn-primary btn-block">
+            Agendar Consulta no WhatsApp
+          </a>
+        </div>
+      </nav>
+
+      <div class="header-action">
+        <a href="https://wa.me/5521995551925?text=Ol%C3%A1%2C%20Dra.%20Samia!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" class="btn btn-primary">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.06c-1.49 0-2.95-.4-4.23-1.16l-.3-.18-3.14.82.84-3.06-.2-.31a8.12 8.12 0 0 1-1.25-4.26c0-4.52 3.68-8.2 8.2-8.2 2.19 0 4.25.85 5.8 2.4 1.55 1.55 2.4 3.61 2.4 5.8 0 4.52-3.68 8.19-8.12 8.19zm4.49-6.14c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.53.07-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.35-.77-1.85c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07s.89 2.4 1.01 2.57c.12.17 1.76 2.68 4.26 3.76.6.26 1.06.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.11-.22-.17-.46-.29z"/></svg>
+          <span>Agendar Consulta</span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Alternar menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         HERO SECTION: A ARTE DA ÁRVORE DA VIDA EM DESTAQUE TOTAL
+         ========================================================================= -->
+    <section class="hero-showcase" id="hero">
+      <div class="container hero-layout">
+        
+        <!-- Coluna Esquerda: Espaço de contemplação da Árvore da Vida -->
+        <div class="hero-tree-space">
+          <div class="hero-symbolism-card">
+            <div class="symbolism-inner">
+              <span class="symbolism-icon">✨</span>
+              <div class="symbolism-text">
+                <strong class="symbolism-badge">A Árvore da Vida & Fertilidade</strong>
+                <p>
+                  Metáfora poética da reprodução humana: os galhos acolhedores como trompas e os frutos radiantes como óvulos fecundados e novas vidas florescendo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coluna Direita: Painel Nobre de Informações e Agendamento -->
+        <div class="hero-panel">
+          <div class="hero-tag">
+            <span class="tag-sparkle">✦</span>
+            <span>Acolhimento • Ciência • Vida</span>
+          </div>
+
+          <h1 class="hero-heading">
+            Onde a vida se renova com <em>ciência, carinho e acolhimento</em>.
+          </h1>
+
+          <p class="hero-subtext">
+            Atendimento especializado em saúde da mulher com a <strong>Dra. Samia Insaurriaga Jundi</strong>. Dedicação minuciosa à <strong>reprodução assistida</strong>, tratamento de <strong>anovulação</strong> e <strong>infertilidade</strong>, <strong>pré-natal de alto risco</strong> e o protagonismo do <strong>parto humanizado</strong>.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="https://wa.me/5521995551925?text=Ol%C3%A1%2C%20Dra.%20Samia!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" class="btn btn-primary btn-large">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.06c-1.49 0-2.95-.4-4.23-1.16l-.3-.18-3.14.82.84-3.06-.2-.31a8.12 8.12 0 0 1-1.25-4.26c0-4.52 3.68-8.2 8.2-8.2 2.19 0 4.25.85 5.8 2.4 1.55 1.55 2.4 3.61 2.4 5.8 0 4.52-3.68 8.19-8.12 8.19zm4.49-6.14c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.53.07-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.35-.77-1.85c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07s.89 2.4 1.01 2.57c.12.17 1.76 2.68 4.26 3.76.6.26 1.06.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.11-.22-.17-.46-.29z"/></svg>
+              <span>Agendar Minha Consulta</span>
+            </a>
+            <a href="#sobre" class="btn btn-secondary btn-large">
+              <span>Conhecer a Dra. Samia</span>
+              <svg class="btn-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </a>
+          </div>
+
+          <!-- Mini cards de confiança no rodapé do herói -->
+          <div class="hero-trust-chips">
+            <div class="chip">
+              <span class="chip-icon">★</span>
+              <div>
+                <strong>Avaliação 5.0</strong>
+                <small>Doctoralia Verificado</small>
+              </div>
+            </div>
+            <div class="chip">
+              <span class="chip-icon">🩺</span>
+              <div>
+                <strong>CRM-RJ 520117352-9</strong>
+                <small>Ginecologia & Obstetrícia</small>
+              </div>
+            </div>
+            <div class="chip">
+              <span class="chip-icon">📍</span>
+              <div>
+                <strong>Edifício Trade Icaraí</strong>
+                <small>Icaraí • Niterói - RJ</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Indicador de Rolagem Suave -->
+      <a href="#sobre" class="scroll-arrow" aria-label="Rolar para baixo">
+        <span class="scroll-track">
+          <span class="scroll-ball"></span>
+        </span>
+        <span class="scroll-caption">Role para conhecer</span>
+      </a>
+    </section>
+
+    <!-- =========================================================================
+         SEÇÃO SOBRE A DRA. SAMIA (COM A FOTO REAL OFICIAL DA MÉDICA)
+         ========================================================================= -->
+    <section class="page-section section-about" id="sobre">
+      <div class="container">
+        
+        <div class="about-flex">
+          
+          <!-- Foto Oficial da Dra. Samia -->
+          <div class="about-photo-wrapper">
+            <div class="doctor-photo-card">
+              <div class="photo-frame">
+                <img src="assets/images/dra-samia.png" alt="Dra. Samia Insaurriaga Jundi - Ginecologista e Obstetra" class="doctor-photo">
+                <div class="photo-seal-badge">
+                  <img src="assets/images/logo.png" alt="Selo Oficial Dra. Samia" class="mini-seal">
+                </div>
+              </div>
+              <div class="doctor-caption-card">
+                <h3 class="caption-name">Dra. Samia Insaurriaga Jundi</h3>
+                <span class="caption-title">Ginecologista & Obstetra • CRM-RJ 520117352-9</span>
+                <div class="caption-rating">
+                  <span class="stars">★★★★★</span>
+                  <span>Excelência em Atendimento Humanizado</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Conteúdo Biográfico com a Voz da Médica -->
+          <div class="about-bio-wrapper">
+            <span class="section-tag">Apresentação</span>
+            <h2 class="section-heading">
+              Cuidado, paciência e atenção dedicados à saúde e aos sonhos de cada mulher.
+            </h2>
+
+            <div class="bio-paragraphs">
+              <p class="bio-intro">
+                Meu nome é <strong>Dra. Samia Insaurriaga Jundi</strong> e sou médica ginecologista especializada no atendimento integral e humanizado para mulheres.
+              </p>
+
+              <p>
+                Tenho grande experiência no diagnóstico e tratamento de diversas condições ginecológicas e obstétricas, incluindo a <strong>anovulação</strong>, <strong>infertilidade</strong>, <strong>pré-natal de alto risco</strong> e <strong>parto humanizado</strong>.
+              </p>
+
+              <p>
+                Meu atendimento é pautado pela <strong>atenção e cuidado com minhas pacientes</strong>, sempre buscando esclarecer dúvidas e oferecer as melhores opções de tratamento para cada caso. Meu objetivo é <strong>promover o autocuidado e a autoestima de cada mulher</strong>, desmistificando tabus e mitos em relação à saúde feminina.
+              </p>
+
+              <p>
+                Além disso, realizo acompanhamento pré-natal com <strong>paciência, cuidado e atenção</strong>, oferecendo explicações claras e acessíveis para as gestantes. Também ofereço orientações essenciais sobre a <strong>amamentação</strong> e a <strong>recuperação pós-parto</strong>.
+              </p>
+
+              <blockquote class="bio-quote">
+                “Meu atendimento é resolutivo e eficiente, sempre buscando o melhor para a saúde e bem-estar de cada paciente. Agradeço pelas avaliações positivas e recomendações, e me coloco sempre à disposição para atender às suas necessidades.”
+              </blockquote>
+            </div>
+
+            <!-- Pilares de Atendimento -->
+            <div class="pillars-grid">
+              <div class="pillar-box">
+                <div class="pillar-icon">01</div>
+                <div>
+                  <strong>Escuta Sem Pressa</strong>
+                  <p>Espaço acolhedor e seguro para tirar todas as dúvidas sem julgamentos.</p>
+                </div>
+              </div>
+              <div class="pillar-box">
+                <div class="pillar-icon">02</div>
+                <div>
+                  <strong>Diagnóstico Preciso</strong>
+                  <p>Investigação resolutiva das reais causas hormonais e reprodutivas.</p>
+                </div>
+              </div>
+              <div class="pillar-box">
+                <div class="pillar-icon">03</div>
+                <div>
+                  <strong>Pré-Natal Seguro</strong>
+                  <p>Vigilância materno-fetal de excelência com calma e transparência.</p>
+                </div>
+              </div>
+              <div class="pillar-box">
+                <div class="pillar-icon">04</div>
+                <div>
+                  <strong>Apoio ao Pós-Parto</strong>
+                  <p>Orientações práticas de amamentação e acolhimento no puerpério.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-actions">
+              <a href="https://wa.me/5521995551925?text=Ol%C3%A1%2C%20Dra.%20Samia!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" class="btn btn-primary">
+                Falar com a Dra. Samia no WhatsApp
+              </a>
+              <a href="https://www.doctoralia.com.br/samia-insaurriaga-jundi/ginecologista/rio-de-janeiro?utm_campaign=836030&utm_medium=link&utm_source=widget&utm_term=instagram-profile-link" target="_blank" rel="noopener" class="btn btn-outline">
+                Ver Avaliações no Doctoralia
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         REPRODUÇÃO ASSISTIDA & METÁFORA DA VIDA (DESTAQUE ESPECIAL)
+         ========================================================================= -->
+    <section class="page-section section-fertility-focus" id="reproducao">
+      <div class="container">
+        
+        <div class="fertility-banner-luxury">
+          <div class="fertility-grid">
+            <div class="fertility-text">
+              <span class="section-tag light">Medicina Reprodutiva</span>
+              <h2 class="section-heading light">
+                O sonho de gerar uma nova vida guiado pela ciência e sensibilidade.
+              </h2>
+              <p class="fertility-lead">
+                A jornada dos tentantes exige acolhimento de mãos dadas com a tecnologia. Assim como os troncos da nossa árvore acolhem os óvulos fecundados, cuidamos de cada etapa: do exame de reserva ovariana à saúde das trompas, indução da ovulação e acompanhamento emocional.
+              </p>
+
+              <div class="fertility-list">
+                <div class="f-item">
+                  <span class="f-bullet">✦</span>
+                  <div>
+                    <strong>Investigação Integral da Fertilidade</strong>
+                    <p>Avaliação personalizada do casal, trompas, endométrio e ovários.</p>
+                  </div>
+                </div>
+                <div class="f-item">
+                  <span class="f-bullet">✦</span>
+                  <div>
+                    <strong>Tratamento da Anovulação & SOP</strong>
+                    <p>Restabelecimento dos ciclos ovulatórios com medicamentos modernos e ajustes metabólicos.</p>
+                  </div>
+                </div>
+                <div class="f-item">
+                  <span class="f-bullet">✦</span>
+                  <div>
+                    <strong>Aconselhamento Reprodutivo</strong>
+                    <p>Planejamento gestacional no tempo certo para o seu projeto familiar.</p>
+                  </div>
+                </div>
+              </div>
+
+              <a href="https://wa.me/5521995551925?text=Ol%C3%A1%2C%20Dra.%20Samia!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20de%20fertilidade." target="_blank" rel="noopener" class="btn btn-gold btn-large">
+                Agendar Avaliação de Fertilidade
+              </a>
+            </div>
+
+            <div class="fertility-visual">
+              <div class="fertility-img-card">
+                <img src="assets/images/clinic-cozy.jpg" alt="Acolhimento e Consulta com a Dra. Samia Jundi" class="f-photo">
+                <div class="f-badge">
+                  <span>Esperança & Tecnologia</span>
+                  <strong>Cuidado Personalizado</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         ESPECIALIDADES COM FOTOS REAIS (SISTEMA DE GRADE / RODAGEM)
+         ========================================================================= -->
+    <section class="page-section section-services" id="especialidades">
+      <div class="container">
+        
+        <div class="section-header-center">
+          <span class="section-tag">Áreas de Atuação</span>
+          <h2 class="section-heading">Cuidados especializados para cada momento da sua vida</h2>
+          <p class="section-lead">
+            Da prevenção ginecológica à alta complexidade obstétrica e reprodutiva, conheça as principais especialidades conduzidas pela Dra. Samia.
+          </p>
+        </div>
+
+        <div class="services-cards-grid">
+          
+          <!-- Card 1: Infertilidade e Reprodução -->
+          <article class="service-box">
+            <div class="service-media">
+              <img src="assets/images/ultrasound-care.jpg" alt="Infertilidade e Reprodução Assistida" class="service-img">
+              <span class="service-category">Reprodução Humana</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Infertilidade & Reprodução Assistida</h3>
+              <p class="service-desc">
+                Investigação minuciosa das causas da infertilidade feminina e conjugal, diagnóstico das tubas uterinas (trompas), ovários e planejamento individualizado para a concepção.
+              </p>
+              <ul class="service-points">
+                <li>Avaliação da reserva ovariana</li>
+                <li>Estudo da perviedade tubária</li>
+                <li>Acompanhamento próximo aos tentantes</li>
+              </ul>
+              <a href="https://wa.me/5521995551925?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20tratamento%20de%20infertilidade." target="_blank" rel="noopener" class="service-link">Agendar Consulta →</a>
+            </div>
+          </article>
+
+          <!-- Card 2: Anovulação e SOP -->
+          <article class="service-box">
+            <div class="service-media">
+              <img src="assets/images/fertility.jpg" alt="Tratamento de Anovulação e SOP" class="service-img">
+              <span class="service-category">Equilíbrio Hormonal</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Anovulação & Ovários Policísticos (SOP)</h3>
+              <p class="service-desc">
+                Tratamento especializado para mulheres que enfrentam ausência de ovulação, ciclos menstruais irregulares e alterações metabólicas, visando saúde e fertilidade.
+              </p>
+              <ul class="service-points">
+                <li>Indução segura da ovulação</li>
+                <li>Regulação hormonal e metabólica</li>
+                <li>Controle dos sintomas da SOP</li>
+              </ul>
+              <a href="https://wa.me/5521995551925?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20tratamento%20de%20anovula%C3%A7%C3%A3o." target="_blank" rel="noopener" class="service-link">Agendar Consulta →</a>
+            </div>
+          </article>
+
+          <!-- Card 3: Pré-natal de Alto Risco -->
+          <article class="service-box">
+            <div class="service-media">
+              <img src="assets/images/pregnant-warm.jpg" alt="Pré-Natal de Alto Risco" class="service-img">
+              <span class="service-category">Obstetrícia Avançada</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Pré-Natal de Alto Risco</h3>
+              <p class="service-desc">
+                Vigilância médica criteriosa e acolhedora para gestações que exigem cuidados adicionais (hipertensão, diabetes gestacional, idade materna ou histórico obstétrico anterior).
+              </p>
+              <ul class="service-points">
+                <li>Monitoramento materno-fetal contínuo</li>
+                <li>Explicações calmas, claras e sem alarmismo</li>
+                <li>Disponibilidade e segurança em cada trimestre</li>
+              </ul>
+              <a href="https://wa.me/5521995551925?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20acompanhamento%20de%20pr%C3%A9-natal." target="_blank" rel="noopener" class="service-link">Agendar Consulta →</a>
+            </div>
+          </article>
+
+          <!-- Card 4: Parto Humanizado -->
+          <article class="service-box">
+            <div class="service-media">
+              <img src="assets/images/newborn.jpg" alt="Parto Humanizado e Nascimento Respeitoso" class="service-img">
+              <span class="service-category">Nascimento Respeitoso</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Parto Humanizado</h3>
+              <p class="service-desc">
+                Respeito à fisiologia do parto, construção do plano de nascimento alinhado aos desejos da gestante e respaldo de segurança hospitalar de excelência.
+              </p>
+              <ul class="service-points">
+                <li>Construção conjunta do plano de parto</li>
+                <li>Ambiente acolhedor e respeito ao protagonismo</li>
+                <li>Contato pele a pele precoce e corte tardio do cordão</li>
+              </ul>
+              <a href="https://wa.me/5521995551925?text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20o%20parto%20humanizado." target="_blank" rel="noopener" class="service-link">Agendar Consulta →</a>
+            </div>
+          </article>
+
+          <!-- Card 5: Amamentação & Pós-Parto -->
+          <article class="service-box">
+            <div class="service-media">
+              <img src="assets/images/breastfeeding.jpg" alt="Amamentação e Apoio ao Pós-Parto" class="service-img">
+              <span class="service-category">Puerpério & Aleitamento</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Amamentação & Pós-Parto</h3>
+              <p class="service-desc">
+                Orientações práticas de pega correta, prevenção de fissuras e mastite, além do acolhimento integral às transformações físicas e emocionais da mãe no puerpério.
+              </p>
+              <ul class="service-points">
+                <li>Manejo da amamentação sem dor</li>
+                <li>Recuperação pós-parto física e emocional</li>
+                <li>Apoio prático e acolhedor para a mãe</li>
+              </ul>
+              <a href="https://wa.me/5521995551925?text=Ol%C3%A1%2C%20preciso%20de%20orienta%C3%A7%C3%B5es%20de%20amamenta%C3%A7%C3%A3o%20e%20p%C3%B3s-parto." target="_blank" rel="noopener" class="service-link">Agendar Consulta →</a>
+            </div>
+          </article>
+
+          <!-- Card 6: Ginecologia & Desmistificação -->
+          <article class="service-box">
+            <div class="service-media">
+              <img src="assets/images/consultation.jpg" alt="Ginecologia e Desmistificação de Tabus" class="service-img">
+              <span class="service-category">Saúde Integral</span>
+            </div>
+            <div class="service-body">
+              <h3 class="service-name">Ginecologia & Autoestima Feminina</h3>
+              <p class="service-desc">
+                Check-up preventivo completo, rastreamento, métodos contraceptivos e diálogo aberto para desmistificar tabus e promover o autocuidado e a autoestima da mulher.
+              </p>
+              <ul class="service-points">
+                <li>Prevenção ginecológica sem constrangimentos</li>
+                <li>Orientação contraceptiva personalizada</li>
+                <li>Promoção da autoestima e bem-estar</li>
+              </ul>
+              <a href="https://wa.me/5521995551925?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20minha%20consulta%20ginecol%C3%B3gica." target="_blank" rel="noopener" class="service-link">Agendar Consulta →</a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         AVALIAÇÕES REAIS DO DOCTORALIA (CARROSSEL / SISTEMA DE RODAGEM)
+         ========================================================================= -->
+    <section class="page-section section-reviews" id="depoimentos">
+      <div class="container">
+        
+        <div class="doctoralia-spotlight">
+          <div class="doc-header-row">
+            <div class="doc-rating-summary">
+              <div class="doc-seal-thumb">
+                <img src="assets/images/logo.png" alt="Selo Dra Samia" class="doc-logo-circle">
+              </div>
+              <div class="doc-scores">
+                <div class="stars-gold">★★★★★</div>
+                <strong class="score-num">5.0 / 5.0</strong>
+                <span class="score-sub">Perfil Verificado no Doctoralia</span>
+              </div>
+            </div>
+
+            <div class="doc-callout">
+              <p>“Agradeço pelas avaliações positivas e recomendações, e me coloco sempre à disposição para atender às necessidades de cada paciente.”</p>
+              <a href="https://www.doctoralia.com.br/samia-insaurriaga-jundi/ginecologista/rio-de-janeiro?utm_campaign=836030&utm_medium=link&utm_source=widget&utm_term=instagram-profile-link" target="_blank" rel="noopener" class="btn btn-doctoralia">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                <span>Ver Perfil Completo no Doctoralia</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Carrossel de Depoimentos ("Sistema de Rodagem") -->
+          <div class="testimonials-carousel" id="testimonialsCarousel">
+            <div class="carousel-track-wrapper">
+              <div class="carousel-track" id="carouselTrack">
+                
+                <!-- Depoimento 1 -->
+                <div class="testimonial-slide active">
+                  <div class="testimonial-card">
+                    <div class="t-stars">★★★★★</div>
+                    <p class="t-quote">
+                      "A Dra. Samia é uma médica excepcional! Eu estava com muito receio por conta da anovulação e das dificuldades para engravidar. Ela me atendeu com uma paciência que nunca vi antes, tirou todas as dúvidas e nos deu um caminho claro e cheio de esperança."
+                    </p>
+                    <div class="t-author">
+                      <strong>Paciente de Reprodução Assistida</strong>
+                      <span>Consulta no Edifício Trade Icaraí, Niterói</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Depoimento 2 -->
+                <div class="testimonial-slide">
+                  <div class="testimonial-card">
+                    <div class="t-stars">★★★★★</div>
+                    <p class="t-quote">
+                      "Fiz meu pré-natal de alto risco com a Dra. Samia e não poderia ter feito escolha melhor. Ela é muito segura, atenciosa, explica cada exame com palavras simples e me acalmou em todas as semanas. O parto foi inesquecível e respeitou tudo o que sonhamos!"
+                    </p>
+                    <div class="t-author">
+                      <strong>Gestante de Alto Risco</strong>
+                      <span>Avaliação verificada no Doctoralia</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Depoimento 3 -->
+                <div class="testimonial-slide">
+                  <div class="testimonial-card">
+                    <div class="t-stars">★★★★★</div>
+                    <p class="t-quote">
+                      "Excelente ginecologista! Desmistificou questões que eu tinha vergonha de perguntar, foi super acolhedora e me ajudou muito no pós-parto e na amamentação quando tive dificuldades de pega. Atendimento humano de verdade."
+                    </p>
+                    <div class="t-author">
+                      <strong>Paciente de Ginecologia & Pós-Parto</strong>
+                      <span>Atendimento Presencial</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Controles do Carrossel / Rodagem -->
+            <div class="carousel-controls">
+              <button class="carousel-btn prev" id="carouselPrev" aria-label="Depoimento Anterior">←</button>
+              <div class="carousel-dots" id="carouselDots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+              </div>
+              <button class="carousel-btn next" id="carouselNext" aria-label="Próximo Depoimento">→</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         CONSULTÓRIO & LOCALIZAÇÃO (BASEADO NO CARTÃO SAMIA END)
+         ========================================================================= -->
+    <section class="page-section section-clinic" id="consultorio">
+      <div class="container">
+        
+        <div class="clinic-grid">
+          
+          <!-- Card de Agendamento & Endereço (Estilo Samia End) -->
+          <div class="clinic-card-marsala">
+            <div class="card-brand-header">
+              <span class="card-kicker">Atendimento Presencial</span>
+              <h2 class="card-title">Agende sua consulta</h2>
+              <p class="card-intro">Um ambiente acolhedor, privativo e com infraestrutura moderna em Icaraí para cuidar de você.</p>
+            </div>
+
+            <div class="contact-details-list">
+              
+              <!-- Endereço Físico -->
+              <div class="contact-row">
+                <div class="contact-icon-bubble">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="contact-text">
+                  <span class="contact-label">Endereço do Consultório</span>
+                  <p class="contact-highlight">
+                    Rua Ator Paulo Gustavo 26, sala 1114.<br>
+                    <strong>Edifício TRADE ICARAÍ</strong>, Icaraí, Niterói - RJ
+                  </p>
+                  <a href="https://maps.google.com/?q=Rua+Ator+Paulo+Gustavo+26+Edificio+TRADE+ICARAÍ+Niteroi" target="_blank" rel="noopener" class="contact-map-link">
+                    Abrir no Google Maps / Waze →
+                  </a>
+                </div>
+              </div>
+
+              <!-- Telefones e WhatsApp -->
+              <div class="contact-row">
+                <div class="contact-icon-bubble">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.06c-1.49 0-2.95-.4-4.23-1.16l-.3-.18-3.14.82.84-3.06-.2-.31a8.12 8.12 0 0 1-1.25-4.26c0-4.52 3.68-8.2 8.2-8.2 2.19 0 4.25.85 5.8 2.4 1.55 1.55 2.4 3.61 2.4 5.8 0 4.52-3.68 8.19-8.12 8.19zm4.49-6.14c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.53.07-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.35-.77-1.85c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07s.89 2.4 1.01 2.57c.12.17 1.76 2.68 4.26 3.76.6.26 1.06.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.11-.22-.17-.46-.29z"/></svg>
+                </div>
+                <div class="contact-text">
+                  <span class="contact-label">Canais de Agendamento</span>
+                  <div class="phone-buttons-group">
+                    <a href="https://wa.me/5521995551925?text=Ol%C3%A1%2C%20Dra.%20Samia!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" class="phone-tag whatsapp">
+                      <strong>WhatsApp:</strong> (21) 99555-1925
+                    </a>
+                    <a href="tel:+552130942459" class="phone-tag">
+                      <strong>Telefone:</strong> (21) 3094-2459
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Instagram -->
+              <div class="contact-row">
+                <div class="contact-icon-bubble">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                </div>
+                <div class="contact-text">
+                  <span class="contact-label">Acompanhe nas Redes</span>
+                  <p>Conteúdos diários sobre reprodução assistida, gestação e bem-estar feminino.</p>
+                  <a href="https://www.instagram.com/samiajundi.go/" target="_blank" rel="noopener" class="contact-map-link">
+                    @samiajundi.go no Instagram →
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Rodapé do Card com Selo e Botão -->
+            <div class="card-footer-action">
+              <a href="https://wa.me/5521995551925?text=Ol%C3%A1%2C%20Dra.%20Samia!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" class="btn btn-gold btn-block btn-large">
+                Iniciar Agendamento no WhatsApp
+              </a>
+              <div class="seal-signature">
+                <img src="assets/images/logo.png" alt="Selo Oficial Dra Samia" class="footer-seal-small">
+                <span>Dra. Samia Insaurriaga Jundi • CRM-RJ 520117352-9</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Mapa Interativo do Consultório -->
+          <div class="clinic-map-container">
+            <div class="map-card-shell">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.297491745484!2d-43.11181462473489!3d-22.90240953775086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983f4bfa85617%3A0xe21f5791c107e0c4!2sR.%20Ator%20Paulo%20Gustavo%2C%2026%20-%20Icara%C3%AD%2C%20Niter%C3%B3i%20-%20RJ%2C%2024220-380!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" 
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Localização do Consultório no Trade Icaraí Niterói">
+              </iframe>
+              <div class="map-pin-pill">
+                <span class="pulsing-dot"></span>
+                <span>Edifício TRADE ICARAÍ • Sala 1114</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PERGUNTAS FREQUENTES (FAQ)
+         ========================================================================= -->
+    <section class="page-section section-faq" id="faq">
+      <div class="container faq-shell">
+        <div class="section-header-center">
+          <span class="section-tag">Dúvidas Frequentes</span>
+          <h2 class="section-heading">Perguntas comuns das nossas pacientes</h2>
+        </div>
+
+        <div class="faq-accordion-list">
+          
+          <details class="faq-card" open>
+            <summary class="faq-trigger">
+              <span>Quando é o momento certo de procurar a Dra. Samia para avaliação de fertilidade?</span>
+              <span class="faq-symbol">+</span>
+            </summary>
+            <div class="faq-content">
+              <p>Recomenda-se a avaliação se você tem menos de 35 anos e está tentando engravidar há mais de 12 meses, ou após 6 meses se tiver 35 anos ou mais. Casais com histórico conhecido de anovulação, endometriose, alterações tubárias (trompas) ou ciclos irregulares devem procurar desde o início das tentativas.</p>
+            </div>
+          </details>
+
+          <details class="faq-card">
+            <summary class="faq-trigger">
+              <span>O que é anovulação e existe tratamento eficaz?</span>
+              <span class="faq-symbol">+</span>
+            </summary>
+            <div class="faq-content">
+              <p>Anovulação é a ausência de liberação do óvulo pelos ovários, impedindo a fecundação natural. O tratamento é individualizado e de alta resolutividade, podendo incluir indução ovulatória acompanhada por ultrassom, equilíbrio hormonal e reeducação metabólica.</p>
+            </div>
+          </details>
+
+          <details class="faq-card">
+            <summary class="faq-trigger">
+              <span>Como é conduzido o pré-natal de alto risco?</span>
+              <span class="faq-symbol">+</span>
+            </summary>
+            <div class="faq-content">
+              <p>O pré-natal de alto risco conta com consultas mais próximas, exames diagnósticos minuciosos e vigilância constante sobre a saúde materna e fetal. O foco da Dra. Samia é garantir que a gestante se sinta segura, acolhida e informada com explicações calmas e sem alarmismos.</p>
+            </div>
+          </details>
+
+          <details class="faq-card">
+            <summary class="faq-trigger">
+              <span>Como funcionam as consultas e o agendamento?</span>
+              <span class="faq-symbol">+</span>
+            </summary>
+            <div class="faq-content">
+              <p>As consultas são presenciais no consultório em Icaraí, com horário reservado sem pressa. O agendamento é feito de forma rápida pelo WhatsApp <strong>(21) 99555-1925</strong>, pelo telefone fixo <strong>(21) 3094-2459</strong> ou diretamente pelo <strong>Doctoralia</strong>.</p>
+            </div>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       RODAPÉ OFICIAL (CONFORMIDADE CFM)
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-columns">
+      
+      <div class="f-col brand-col">
+        <div class="f-brand-header">
+          <img src="assets/images/logo.png" alt="Logotipo Dra Samia Jundi" class="f-logo">
+          <div>
+            <strong class="f-name">Dra. Samia Insaurriaga Jundi</strong>
+            <span class="f-subtitle">Ginecologista & Obstetra</span>
+          </div>
+        </div>
+        <p class="f-text">
+          Acolhimento, ciência e sensibilidade para cuidar da mulher em todas as fases da vida. Do planejamento reprodutivo ao parto humanizado.
+        </p>
+        <span class="f-crm-pill">CRM-RJ 520117352-9</span>
+      </div>
+
+      <div class="f-col">
+        <h4 class="f-col-title">Especialidades</h4>
+        <ul class="f-menu">
+          <li><a href="#reproducao">Reprodução Assistida</a></li>
+          <li><a href="#especialidades">Tratamento de Anovulação & SOP</a></li>
+          <li><a href="#especialidades">Pré-Natal de Alto Risco</a></li>
+          <li><a href="#especialidades">Parto Humanizado</a></li>
+          <li><a href="#especialidades">Amamentação e Pós-Parto</a></li>
+          <li><a href="#especialidades">Ginecologia & Autoestima</a></li>
+        </ul>
+      </div>
+
+      <div class="f-col">
+        <h4 class="f-col-title">Consultório Icaraí</h4>
+        <address class="f-address">
+          Rua Ator Paulo Gustavo 26, sala 1114<br>
+          Edifício TRADE ICARAÍ<br>
+          Icaraí, Niterói - RJ<br>
+          CEP 24220-380
+        </address>
+        <div class="f-phones">
+          <a href="https://wa.me/5521995551925" target="_blank" rel="noopener">WhatsApp: (21) 99555-1925</a>
+          <a href="tel:+552130942459">Fixo: (21) 3094-2459</a>
+          <a href="https://www.instagram.com/samiajundi.go/" target="_blank" rel="noopener">Instagram: @samiajundi.go</a>
+        </div>
+      </div>
+
+      <div class="f-col">
+        <h4 class="f-col-title">Agendamento</h4>
+        <p class="f-schedule-info">
+          Atendimento personalizado com hora marcada em Icaraí.
+        </p>
+        <a href="https://wa.me/5521995551925?text=Ol%C3%A1%2C%20Dra.%20Samia!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" class="btn btn-primary btn-block">
+          Agendar pelo WhatsApp
+        </a>
+      </div>
+
+    </div>
+
+    <div class="footer-legal">
+      <div class="container legal-text">
+        <p>© 2026 Dra. Samia Insaurriaga Jundi • CRM-RJ 520117352-9. Todos os direitos reservados. Informações em conformidade com o Manual de Publicidade Médica e resoluções do CFM/CREMERJ.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       BOTÃO FLUTUANTE DE WHATSAPP
+       ========================================================================= -->
+  <aside class="floating-wa">
+    <a href="https://wa.me/5521995551925?text=Ol%C3%A1%2C%20Dra.%20Samia!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" class="wa-bubble" aria-label="Falar no WhatsApp">
+      <span class="wa-ripple"></span>
+      <svg class="wa-svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.06c-1.49 0-2.95-.4-4.23-1.16l-.3-.18-3.14.82.84-3.06-.2-.31a8.12 8.12 0 0 1-1.25-4.26c0-4.52 3.68-8.2 8.2-8.2 2.19 0 4.25.85 5.8 2.4 1.55 1.55 2.4 3.61 2.4 5.8 0 4.52-3.68 8.19-8.12 8.19zm4.49-6.14c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.53.07-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.35-.77-1.85c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07s.89 2.4 1.01 2.57c.12.17 1.76 2.68 4.26 3.76.6.26 1.06.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.11-.22-.17-.46-.29z"/>
+      </svg>
+      <span class="wa-tooltip">Agendar com a Dra. Samia</span>
+    </a>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
